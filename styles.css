@@ -1,3 +1,5 @@
+/*start of header-3*/
+
 .header-3 {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
@@ -11,10 +13,10 @@
 }
 
 .header-3 h1 {
-font-size: 3.875rem;
-font-weight: 300;
-margin-top: 0em;
-margin-bottom: 0.4em;
+    font-size: 3.875rem;
+    font-weight: 300;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
 }
 
 .header-3 h2 {
@@ -25,7 +27,7 @@ margin-bottom: 0.4em;
     margin-top: 0.3em;
     margin-bottom: 0.5em;
     max-width: 570px;
-
+    line-height: 1.4;
 }
 
 .header-3 h3 {
@@ -34,7 +36,6 @@ margin-bottom: 0.4em;
     margin-top: 1.2em;
     margin-bottom: 1.2em;
     font-family: 'Nunito Sans', sans-serif;
-
 }
 
 .header-3 p {
@@ -44,7 +45,6 @@ margin-bottom: 0.4em;
     margin-top: 0.3em;
     margin-bottom: 0.5em;
     font-family: 'Nunito Sans', sans-serif;
-
 }
 
 .header-3 .fa {
@@ -53,22 +53,55 @@ margin-bottom: 0.4em;
     margin-bottom: 0.3em;
 }
 
+@media (min-width: 992px) {
+    .header-3 {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .header-3 img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-3 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*end of header-3*/
+
+/*start of features-2*/
+ .features-2 {
+     background: #ffffff;
+     font-family: "nunito", sans-serif;
+     padding: 100px 0;
+}
+ .features-2 h2 {
+     font-size: 1.75rem;
+     font-weight: 300;
+}
+ .features-2 h3 {
+     font-size: 1.125rem;
+     font-weight: 700;
+}
+ .features-2 p {
+     font-size: 1rem;
+}
+ .features-2 a {
+     color: #ff0000;
+     font-weight: 500;
+     font-size: 1rem;
+}
  @media (min-width: 992px) {
-     .header-3 {
+     .features-2 {
          height: 100vh;
-         min-height: 650px;
+         min-height: 950px;
          padding-top: 0;
          padding-bottom: 0;
     }
-     .header-3 img {
-    height: 100%;
 }
-}
-
-
- @media (max-width: 992px) {
-  .header-3 img {
-    max-width: 100%;
-    height: auto;
-}
-}
+/*end of features-2*/
