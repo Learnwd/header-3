@@ -9,7 +9,7 @@
 }
 
 .header-3 h1 {
-font-size: 3.775rem;
+font-size: 3.875rem;
 font-weight: 300;
 margin-top: 0em;
 margin-bottom: 0.3em;
@@ -57,11 +57,14 @@ margin-bottom: 0.3em;
          padding-top: 0;
          padding-bottom: 0;
     }
+     .header-3 img {
+    height: 100%;
+}
 }
 
 
  @media (max-width: 992px) {
-  img {
+  .header-3 img {
     max-width: 100%;
     height: auto;
 }
